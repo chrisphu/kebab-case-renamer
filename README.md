@@ -4,11 +4,11 @@ The [`kebab-case-renamer.py`](./kebab-case-renamer.py) Python script renames fil
 1. All lowercase.
 2. Space and underscore delimiters replaced with hyphens.
 
-# How to use
+## How to use
 
 1. Run `py kebab-case-renamer.py {directory path}`.
 2. Confirm operation with '(y)es' when prompted.
 
-# This is very limited. Any plans to expand to include other styles?
+## This is very limited. Any plans to expand to include other styles?
 
 There are no current plans to expand this very much. This was just a quick thing I wrote to get some personal files a bit more organized.
