@@ -21,7 +21,7 @@ def query_yes_no(question):
     answer = input("\n" + question + " [(y)es] [ENTER] ")
     try:
         answer = str(answer)
-        # Can't be answer.lower() in "yes" because then "e", "es", and "s" would both be valid.
+        # Can't be answer.lower() in "yes" because then "e", "es", and "s" would all be valid.
         if answer.lower() in ["yes", "ye", "y"]:
             return
         raise Exception("Answer must be 'yes'.")
