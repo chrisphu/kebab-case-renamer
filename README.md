@@ -7,7 +7,7 @@ The [`kebab-case-renamer.py`](./kebab-case-renamer.py) Python script renames fil
 ## How to use
 
 1. Run `py kebab-case-renamer.py {directory path}`.
-2. Confirm operation with '(y)es' when prompted.
+2. Confirm operation with `(y)es` when prompted.
 
 ## This is very limited. Any plans to expand to include other styles?
 
