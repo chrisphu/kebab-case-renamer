@@ -6,7 +6,8 @@ The [`kebab-case-renamer.py`](./kebab-case-renamer.py) Python script renames fil
 
 ## How to use
 
-1. Run `py kebab-case-renamer.py {directory path}`.
+1. Run `py kebab-case-renamer.py [-h] [-r] directory_path`.
+    - The `-r, --recur` flag loops through all descendant directories as well. Without it, only direct children of `directory_path` will be affected.
 2. Confirm operation with `(y)es` when prompted.
 
 ## This is very limited. Any plans to expand to include other styles?
