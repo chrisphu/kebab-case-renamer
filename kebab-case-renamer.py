@@ -52,7 +52,6 @@ def snakecase_rename(path, depth):
 
 
 def rename_children(recur, path, depth):
-    # rename_count = 0
     global rename_count
     for path_child_i in path.iterdir():
         if recur and path_child_i.is_dir():
